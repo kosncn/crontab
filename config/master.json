@@ -1,0 +1,25 @@
+{
+  "web 页面根目录": "",
+  "webPath": "./static",
+
+  "master 服务的地址": "",
+  "addr": "127.0.0.1:12345",
+
+  "master 服务的读取超时": "单位(ms)",
+  "readTimeout": 5000,
+
+  "master 服务的写入超时": "单位(ms)",
+  "writeTimeout": 5000,
+
+  "etcd 服务端点集合": "",
+  "endpoints": ["192.168.1.3:2379"],
+
+  "etcd 服务连接超时": "单位(ms)",
+  "dialTimeout": 5000,
+
+  "mongoDB 连接地址": "采用 URI 格式",
+  "mongoDBURI": "mongodb://192.168.1.3:27017",
+
+  "mongoDB 连接超时": "单位(ms)",
+  "mongoDBConnectTimeout": 5000
+}

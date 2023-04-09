@@ -1,0 +1,25 @@
+{
+  "bash 程序路径": "",
+  "bashPath": "C:\\SoftWare\\Cygwin\\bin\\bash.exe",
+
+  "etcd 服务端点集合": "",
+  "etcdEndpoints": ["192.168.1.3:2379"],
+
+  "etcd 服务连接超时": "单位(ms)",
+  "etcdDialTimeout": 5000,
+
+  "mongoDB 连接地址": "采用 URI 格式",
+  "mongoDBURI": "mongodb://192.168.1.3:27017",
+
+  "mongoDB 连接超时": "单位(ms)",
+  "mongoDBConnectTimeout": 5000,
+
+  "任务处理通道大小": "",
+  "chanSize": 1000,
+
+  "日志批次大小": "批量写入日志到 mangodb 中的批次大小",
+  "batchSize": 100,
+
+  "日志自动提交超时": "单位(ms)",
+  "logCommitTimeout": 1000
+}
